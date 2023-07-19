@@ -3,28 +3,12 @@
         flex-direction: column;
 
         }
-        .nav-item-container{
+        .nav-item-container,
+        .card-container,
+        .banner-container,{
             flex-direction: column;
             width: 100%;
         }
-    .banner-container,
-    .original-card,
-    .play-games
-    {
-        flex-direction: column;
-        
-    }
-    .banner-text{
-
-    }
-    .play-games{
-        width: 100%;
-        
-    }
-    {
-        .banner-img{
-            width: 100%;
-        }
-    }
+    
 
     }
