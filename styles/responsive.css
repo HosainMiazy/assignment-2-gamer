@@ -5,7 +5,8 @@
         }
         .nav-item-container,
         .card-container,
-        .banner-container,{
+        .banner-container,
+        {
             flex-direction: column;
             width: 100%;
         }
