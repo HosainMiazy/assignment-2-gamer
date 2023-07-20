@@ -217,7 +217,7 @@ main {
 
 .play-games-img {
     
-    width: 90%;
+    width: 100%;
     margin-left: 50px;
     margin-top: 80px;
     height: 750px;
@@ -227,20 +227,36 @@ main {
     /* height: 90%; */
     /* width: 100%; */
     padding-left: 100px;
+    position: absolute;
+    
 }
 
 .games-img-two {
+    position:relative; 
+    /* bottom: 300px; */
+    padding-top: 45%;
+
+}
+/* .games-img-one {
+    /* height: 90%; */
+    /* width: 100%; */
+    padding-left: 100px;
+    
+}*/
+
+/* .games-img-two {
     position: relative;
     bottom: 300px;
 
-}
+}  */
 
 /* part play instantly ends */
 /* main last part gamer start */
 .grand-parent-footer {
-    height: 250px;
+    height: 250%;
     /* display: flex; */
     padding-top: 90px;
+    padding-bottom: 50px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
@@ -249,8 +265,18 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     gap: 20px;
+
+    /* display: grid;
+    
+    grid-template-columns: repeat(5,1fr);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px; */
+
 
 }
 

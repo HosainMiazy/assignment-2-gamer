@@ -1,15 +1,82 @@
-@media screen and (max-width:400px){
+@media screen and (max-width:576px){
     .nav-container{
         flex-direction: column;
-
-        }
-        .nav-item-container,
-        .card-container,
-        .banner-container,
-        {
-            flex-direction: column;
-            width: 100%;
-        }
-    
-
     }
+
+    .nav-item-container,
+    .original-card,
+    .parent-footer,
+    .banner-heading,
+    /* .play-games, */
+    .parent-footer,
+    .short-text,
+    .play-games
+    {
+
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    
+    .banner-container
+    {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .banner-text{
+        margin-left: 20px;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .play-games
+    {
+        /* flex-direction: column ; */
+    }
+
+    .play-games{
+        gap: 0px;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+    .play-games-img{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .parent-footer{
+        /* flex-wrap: nowrap; */
+        
+    }
+    .card-img img{
+        /* padding-left: 100px; */
+        width: 80%;
+        /* margin: auto; */
+        padding-left: 10%;
+    }
+
+    .hero{
+        padding: 10px;
+    }
+    .play-games-img{
+        width: 95%;
+        /* height: 95%; */
+        padding-bottom: 30%;
+        margin: auto;
+    }
+    .games-img-one {
+        /* height: 90%; */
+        /* width: 100%; */
+        padding-left: 100px;
+        position: absolute;
+        width: 70%;
+    }
+    
+    .games-img-two {
+        position:relative; 
+        /* bottom: 300px; */
+        padding-top: 50%;
+        width: 30%;
+    }
+}
