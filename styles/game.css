@@ -147,10 +147,10 @@ main {
     border: none;
 }
 
-.banner-img {
-    width: 50%;
+/* .banner-img {
+    /* width: 50%; */
     
-}
+} */
 
 /* part 2 play like the goat ends */
 
@@ -261,7 +261,11 @@ main {
 }
 
 .parent-footer {
-
+    height: 250%;
+    /* display: flex; */
+    padding-top: 90px;
+    padding-bottom: 50px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
